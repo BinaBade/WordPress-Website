@@ -1,0 +1,7 @@
+/* 
+This scripts enable styling when javascript is Disable
+
+*/
+
+#slider-container{overflow:hidden;}
+.slidertext{display:none;}

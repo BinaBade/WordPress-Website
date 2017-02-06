@@ -1,0 +1,14 @@
+
+
+/*  USE THIS STYLE SHEET FOR FIXED LAYOUT STYLE */
+body {
+	background-color:#729930;
+	background-image:url(bg/bg-body1.png);
+	background-repeat:repeat;
+}
+#container{
+	width:980px;
+	margin:0 auto;
+	background-color:#f7f7f7;
+	border-top:solid 2px #3b3b3b;
+}

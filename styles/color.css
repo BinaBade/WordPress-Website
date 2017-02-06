@@ -1,0 +1,12 @@
+/* 
+
+
+
+USE THIS STYLE SHEET FOR COLOR STYLE
+
+*/
+body {color:#black;}
+a, a:visited, .lower, #side ul li a, #side ul li a:visited, .colortext{color:#d66e51; }
+a:hover, #side ul li a:hover{color:#df8971;}
+h1, h2, h3, h4, h5, h6{color:#3b3b3b;}
+

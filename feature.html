@@ -1,0 +1,163 @@
+<!DOCTYPE>
+<html>
+<head>
+
+<title>Wordpress</title>
+
+<!-- ////////////////////////////////// -->
+<!-- //      Start Stylesheets       // -->
+<!-- ////////////////////////////////// -->
+
+<link href="styles/style.css" rel="stylesheet" type="text/css" />
+<link href="styles/color.css" rel="stylesheet" type="text/css" />
+<link href="styles/nivo-slider.css" rel="stylesheet" type="text/css" /> <!-- //      This CSS is Used BY Slider   imported code    // -->
+
+<!-- ////////////////////////////////// -->
+<!-- //      Javascript Files        // -->
+<!-- ////////////////////////////////// -->
+
+<script type="text/javascript" src="js/jquery-1.5.1.min.js"></script>
+<script type="text/javascript" src="js/cufon-yui.js"></script>
+<script type="text/javascript" src="js/Trebuchet_MS_400.font.js"></script>
+
+<script type="text/javascript" src="js/jquery.easing.1.3.js" ></script>
+<script type="text/javascript" src="js/jquery.nivo.slider"></script> <!-- //      This javascript is Used BY Slider imported code      // -->
+
+
+
+<!-- ////////////////////////////////// -->
+<!-- //         Custom scripts       // -->
+<!-- ////////////////////////////////// -->
+
+
+
+<script type="text/javascript">
+var $jts = jQuery.noConflict();
+$jts(window).load(function() {
+	$jts('#slider').nivoSlider({
+		effect:'fold', //Specify sets like: 'fold,fade,sliceDown, random'
+		slices:15,
+		animSpeed:500, //Slide transition speed
+		pauseTime:6000,
+		directionNav:true, //Next &amp; Prev
+		startSlide:0, //Set starting Slide (0 index)
+		customChange: function(){
+		Cufon.replace('.nivo-caption');
+		}
+	});
+	 Cufon.refresh();
+});
+</script>
+<script type="text/javascript" src="js/dropdown.js"></script>
+</head>
+<body>
+<body>
+	<div id="container">
+		<div id="top-container">
+			<div id="top">
+				<div id="top-left"><a href="index-2.html"><img src="images/logo.png" alt="" /></a></div><!-- end #top-left-->
+				<div id="top-right">
+					<div id="top-navigation">
+						<ul id="topnav">
+							<li><a href="index.html" >Home</a></li>
+							<li class="current" ><a href="introduction.html">Inroduction</a>
+								
+							</li>
+							<li><a href="version.html">Version</a></li>
+							<li><a href="#">Portfolio</a>
+								
+							<li><a href="contact.html">Contact</a></li>
+						</ul>
+						<div class="clear"></div><!-- clear float -->
+					</div>
+					
+				</div><!-- end #top-right -->
+				<div class="clear"></div>
+			</div>
+		</div><!-- end #top-container-->
+		<div id="header-container-inner">
+			<div id="header-inner">
+			<h1 class="pagetitle"><span class="lower"></span><br />Wordpress Feature</h1>
+			
+			</div><!-- end #header-inner-->
+		</div><!-- end #header-container-inner-->
+		<div id="content-container">
+			<div id="content">
+				<div id="side">
+					<div id="sidebar">
+						<ul>
+							<li class="widget-container">
+								<h2 class="widget-title">Wordpress Feature</h2>
+								<div class="padbox">
+									<ul>
+										<li><a href="#">Free</a></li>
+										<li><a href="#">Reliable</a></li>
+										<li><a href="#">Easy</a></li>
+										<li><a href="#">Managable</a></li>
+										
+									</ul>
+								</div>
+							</li>
+							<li class="widget-container">
+								<h2 class="widget-title">Latest News</h2>
+								<div class="padbox">
+									<span class="lp-title"><a href="#">Wordpress 0Day Vulnerability </a></span><br/>
+									<span class="lp-utility">January 22, 2015</a></span>
+									<span>MOs of wordpress users are hit by its oday vulnerability. to know about vulnerabity details read out blog section. </span>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div><!-- end #side-->
+				<div id="maincontent">
+					<span class="t1"><h1>About Wordpress</h1></span>
+					
+				WordPress is a powerful semantic publishing platform, and it comes with a great set of features designed to make your experience as a publisher on the Internet as easy, pleasant, and appealing as possible. We are proud to offer you a freely distributed, standards-compliant, fast, light, and free content management system, with sensible default settings and features, and an extremely customizable core.<br>
+			</br>
+				<span class="t1">Proven</span>
+						<p>WordPress powers nearly a quarter of new sites today, is the content management system (CMS) of choice for more than two thirds of the top million sites making it the most popular on the web, and is trusted by content publishers both large and small including CNN and the NY Times. With more than 50 million sites globally and eight years of proven history, you know you’re getting the best software for the job.</p>
+						<br>
+				<span class="t1">Easy to use</span>
+						<p>At the core of WordPress is a simple interface similar to the desktop publishing software you use today. With no coding experience or expert knowledge necessary, the learning curve is often about as short as typing in your site’s URL and logging in. </p></br>
+
+					<span class="t1">Built for Publishing</span>
+						<p>WordPress makes sharing content and attracting readers to your site a breeze. Whether pushing content to social networks, ensuring that your website is provided in the optimal format to appear at the top of search results the moment you hit publish, or providing visitors the ability to subscribe to specific content sub-feeds in their favorite feed reader</p>
+						<br>
+
+					<span class="t1">Community Support </span>
+						<p>WordPress is supported by a vibrant community of users who have already solved many of the toughest challenges to sharing information today. The latest version of WordPress has been downloaded more than 10 million times since it was released a few months ago, and the prior version was downloaded more than 6,072,599 times</p>
+						<br>
+					</div><!-- end #contentbox-->
+				</div><!-- end #maincontent-->
+				<div class="clear"></div><!-- clear float -->
+			</div><!-- end #content-->
+		</div>
+
+		<!-- Foooter Begains -->
+		<div id="footer-container">
+			<div id="footer">
+				<div id="footer-left">
+					
+					<div id="copyright">Copyright &copy;2015. All Rights Reserved. </div><!-- end #copyright -->
+				</div>
+				<div id="footer-right">
+				<ul id="sn">
+					<li><a href="#"><img src="images/icons/icon-linkedin.png" alt="" /></a></li>
+					<li><a href="#"><img src="images/icons/icon-fb.png" alt="" /></a></li>
+					<li><a href="#"><img src="images/icons/icon-twitter.png" alt="" /></a></li>
+					<li><a href="#"><img src="images/icons/icon-feed.png" alt="" /></a></li>
+				</ul>
+				
+				</div>
+				<div class="clear"></div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript"> Cufon.now(); </script> 
+	<script type="text/javascript">$('#noscript').remove();</script>
+</body>
+
+</html>
+
+
+</html>
